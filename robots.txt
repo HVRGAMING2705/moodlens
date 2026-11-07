@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moodlens.vercel.app/sitemap.xml
