@@ -28,7 +28,7 @@
     },
     {
      "key": "Access-Control-Allow-Origin",
-     "value": "https://moodlens.vercel.app"
+     "value": "https://moodlens-gilt.vercel.app"
     },
     {
      "key": "Content-Security-Policy",

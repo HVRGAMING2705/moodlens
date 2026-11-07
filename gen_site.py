@@ -3,7 +3,7 @@ m = json.load(open("model.json"))
 classes, vocab, idf, coef, icpt = m["classes"], m["vocabulary"], m["idf"], m["coef"], m["intercept"]
 mt = m["metrics"]
 acc, base = mt["cv_accuracy"], mt["baseline_accuracy"]
-DOMAIN = "moodlens.vercel.app"
+DOMAIN = "moodlens-gilt.vercel.app"
 EMOJI = {"joy": "😄", "sadness": "😢", "anger": "😠", "fear": "😨", "surprise": "😲", "love": "❤️"}
 JS_MODEL = f"""const CLASSES = {json.dumps(classes)};
 const VOCAB = {json.dumps(vocab)};
